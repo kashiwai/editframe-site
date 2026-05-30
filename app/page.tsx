@@ -42,7 +42,7 @@ function Navbar() {
             <a key={l} href={`#${l.toLowerCase()}`} className="hover:text-white transition-colors">{l}</a>
           ))}
         </div>
-        <a href="https://app.editframe.com" className="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-semibold transition-colors flex items-center gap-2">
+        <a href="https://editframe.app" className="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-semibold transition-colors flex items-center gap-2">
           Get Started <IconArrow />
         </a>
       </div>
@@ -78,7 +78,7 @@ function Hero() {
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4 items-center animate-fade-up" style={{animationDelay:"0.3s"}}>
-        <a href="https://app.editframe.com"
+        <a href="https://editframe.app"
           className="group px-8 py-4 rounded-xl font-bold text-base flex items-center gap-2 transition-all"
           style={{background:"linear-gradient(135deg,#6366f1,#7c3aed)", boxShadow:"0 8px 32px rgba(99,102,241,0.3)"}}>
           無料で始める
@@ -254,7 +254,7 @@ function Pricing() {
                   </li>
                 ))}
               </ul>
-              <a href="https://app.editframe.com"
+              <a href="https://editframe.app"
                 className={`text-center py-3 rounded-xl font-bold text-sm transition-all ${p.hi ? "bg-indigo-600 hover:bg-indigo-500 text-white" : "bg-white/8 hover:bg-white/12 text-white"}`}>
                 {p.cta}
               </a>
@@ -309,7 +309,7 @@ function CTA() {
           Your SNS.<br /><span className="gradient-text">Supercharged.</span>
         </h2>
         <p className="text-white/35 text-lg mb-10">今すぐ始めて、AIがあなたのSNSを変える。</p>
-        <a href="https://app.editframe.com"
+        <a href="https://editframe.app"
           className="group inline-flex items-center gap-3 px-10 py-5 rounded-2xl font-bold text-lg transition-all"
           style={{background:"linear-gradient(135deg,#6366f1,#7c3aed)",boxShadow:"0 12px 40px rgba(99,102,241,0.35)"}}>
           無料で始める
